@@ -1,0 +1,25 @@
+{
+  "name": "Node-SQL-Bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arivas86/Node-SQL-Bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arivas86/Node-SQL-Bamazon/issues"
+  },
+  "homepage": "https://github.com/arivas86/Node-SQL-Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "mysql": "^2.17.1",
+    "parse": "^2.6.0"
+  }
+}
