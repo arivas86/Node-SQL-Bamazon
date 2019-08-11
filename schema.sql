@@ -6,7 +6,7 @@ CREATE TABLE products(
 item_id INT AUTO_INCREMENT NOT NULL,
 product_name VARCHAR(30) NOT NULL,
 department_name VARCHAR(20) NOT NULL,
-price decimal(5,2) not null,
+price decimal(10,2) not null,
 stock_qty int(5) not null,
 primary key (item_id)
 );
@@ -14,7 +14,7 @@ primary key (item_id)
 
 SELECT * FROM bamazon.products;
 
-INSERT INTO products(ProductName, DepartmentName, Price, StockQty)
+INSERT INTO products(product_name, department_name, price, stock_qty)
 VALUES("PS4", "Video Games", 300.00, 20),
 	("FIFA 20", "Video Games", 60.00, 100),
     ("Vacuum", "Home Goods", 75.60, 200),
